@@ -7,10 +7,8 @@ node_modules/
 dist/
 
 # Environment
-.env
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -36,3 +34,4 @@ build/
 # Backfill checkpoints, locks and rollback journals (operator state)
 api/data/backfill/
 api/data/repair/
+config.bat
