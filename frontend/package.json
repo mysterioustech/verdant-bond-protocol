@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node init && ng serve",
     "check:env": "node scripts/check-environments.mjs",
     "prebuild": "npm run check:env",
-    "build": "ng build",
+    "build": "node init && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
